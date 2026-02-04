@@ -1,10 +1,3 @@
-// ======================================================
-// JavaScript Conditional Statements (BEGINNER – FULL NOTES)
-// Pure JavaScript | Code Editor Style
-// EVERYTHING explained using comments
-// Step-by-step | Beginner-friendly
-// ======================================================
-
 // ------------------------------------------------------
 // WHAT ARE CONDITIONAL STATEMENTS?
 // ------------------------------------------------------

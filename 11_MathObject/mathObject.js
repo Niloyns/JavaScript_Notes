@@ -1,10 +1,3 @@
-// ======================================================
-// JavaScript Math Object (BEGINNER – VERY DETAILED NOTES)
-// Pure JavaScript | Code Editor Style
-// EVERYTHING explained using comments
-// Step-by-step | No shortcuts | Deep understanding
-// ======================================================
-
 // ------------------------------------------------------
 // WHAT IS Math OBJECT?
 // ------------------------------------------------------

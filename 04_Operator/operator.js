@@ -1,9 +1,3 @@
-// ======================================================
-// JavaScript Operators (BEGINNER – FULL EXPLANATION)
-// Pure JavaScript | Code Editor Style
-// EVERYTHING explained using comments
-// ======================================================
-
 // ------------------------------------------------------
 // WHAT IS AN OPERATOR?
 // ------------------------------------------------------
@@ -41,6 +35,16 @@ let additionResult = firstValue + secondValue;
 
 console.log(additionResult);
 // OUTPUT: 13
+
+// Also used for STRING CONCATENATION
+
+// String concatenation example
+let firstName = "John";
+let lastName = "Doe";
+let fullName = firstName + " " + lastName;
+
+console.log(fullName);
+// OUTPUT: John Doe
 
 // ------------------------------
 // Subtraction (-)
@@ -92,6 +96,30 @@ let oddCheck = 7 % 2;
 
 console.log(oddCheck);
 // OUTPUT: 1
+
+// ------------------------------
+// Exponentiation (**)
+// ------------------------------
+// Raises first value to the power of second value
+// Also called: "Power operator"
+
+let exponentiationResult = 2 ** 3;
+// Calculation: 2 raised to power 3 = 2 × 2 × 2 = 8
+
+console.log(exponentiationResult);
+// OUTPUT: 8
+
+let squareResult = 5 ** 2;
+// Calculation: 5 raised to power 2 = 5 × 5 = 25
+
+console.log(squareResult);
+// OUTPUT: 25
+
+let cubeRoot = 27 ** (1 / 3);
+// Calculation: Cube root of 27
+
+console.log(cubeRoot);
+// OUTPUT: 3
 
 // ======================================================
 // INCREMENT & DECREMENT
@@ -204,7 +232,7 @@ console.log(numOne === numTwo);
 // OUTPUT: false
 
 // ------------------------------
-// != and !==
+// != and !== NOT EQUAL
 // ------------------------------
 
 console.log(numOne != numTwo);
@@ -305,6 +333,20 @@ console.log(permission);
 // ======================================================
 // Some operators run before others
 
+// Highest priority → runs first
+// Lowest priority  → runs last
+//
+// Order (high → low):
+// 1. Brackets ( )
+// 2. Unary operators (+, -, !, typeof)
+// 3. Multiplication (*), Division (/), Modulus (%)
+// 4. Addition (+), Subtraction (-)
+// 5. Comparison (>, <, >=, <=)
+// 6. Equality (==, ===, !=, !==)
+// 7. Logical AND (&&)
+// 8. Logical OR (||)
+// 9. Assignment (=, +=, -=, etc)
+
 let resultOne = 10 + 5 * 2;
 // Multiplication runs first
 // 5 * 2 = 10
@@ -325,12 +367,18 @@ console.log(resultTwo);
 // FINAL SUMMARY (MEMORY TIP)
 // ======================================================
 //
-// Arithmetic  → + - * / % ++ --
+// Arithmetic  → + (addition & concatenation) - * / % ** ++ --
 // Assignment  → = += -= *= /=
 // Comparison  → == === != !== > < >= <=
 // Logical     → && || !
 // Unary       → + - typeof
 // Ternary     → condition ? true : false
+//
+// KEY TIPS:
+// - Use ** for power calculations
+// - Use + for both numbers AND strings
+// - Use === instead of == (strict equality)
+// - Operator precedence matters: () → ** → */%  → +- → comparison → logical
 //
 // ==============================
 // END: JavaScript Operators

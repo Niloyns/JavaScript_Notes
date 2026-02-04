@@ -8,6 +8,12 @@
 // 1. Primitive Data Types
 // 2. Non-Primitive (Reference) Data Types
 
+// Primitive Types:
+// number, string, boolean, undefined, null, symbol, bigint
+
+// Non-Primitive Types:
+// object, array, function
+
 // ======================================================
 // 1. Primitive Data Types
 // ======================================================
@@ -27,7 +33,7 @@ console.log(negative);
 
 // Special number values
 let infinityValue = Infinity; // represents infinity
-let notANumber = NaN; // result of invalid calculation
+let notANumber = NaN; // result of invalid calculationZ
 
 console.log(infinityValue);
 console.log(notANumber);

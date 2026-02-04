@@ -1,10 +1,3 @@
-// ======================================================
-// JavaScript Arrays (BEGINNER – VERY DETAILED NOTES)
-// Pure JavaScript | Code Editor Style
-// EVERY explanation inside comments
-// Step-by-step | Deep explanation (like Variables & Data Types)
-// ======================================================
-
 // ------------------------------------------------------
 // WHAT IS AN ARRAY?
 // ------------------------------------------------------
